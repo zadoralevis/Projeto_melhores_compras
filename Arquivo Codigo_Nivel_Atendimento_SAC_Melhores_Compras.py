@@ -1,7 +1,7 @@
  def classificar_satisfacao(nota):
  if nota > 90:
         return "Atendimento de qualidade"
-    if 70 <= nota <= 89:
+    elif 70 <= nota <= 89:
         return "Atendimento neutro"
     else:
         return "Atendimento insatisfatório"
